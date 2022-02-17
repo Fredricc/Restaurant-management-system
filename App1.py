@@ -31,8 +31,8 @@ class App1:
         
         self.Label12 = tk.Label(master=top, text="Order Num :", foreground='#bac8bd', font=font12, background="#091833" )
         self.Label12.place(relx=0.060, rely=0.25)
-        self.Label12 = tk.Label(master=top, text="Fried Potates :", foreground='#bac8bd', font=font12, background="#091833" )
-        self.Label12.place(relx=0.044, rely=0.32)
+        self.Label12 = tk.Label(master=top, text="Fried Potatoes :", foreground='#bac8bd', font=font12, background="#091833" )
+        self.Label12.place(relx=0.035, rely=0.32)
         self.Label12 = tk.Label(master=top, text="Chk Burger :", foreground='#bac8bd', font=font12, background="#091833" )
         self.Label12.place(relx=0.053, rely=0.4)
         self.Label12 = tk.Label(master=top, text="Big King :", foreground='#bac8bd', font=font12, background="#091833" )
@@ -42,38 +42,95 @@ class App1:
         self.Label12 = tk.Label(master=top, text="Veg Salad :", foreground='#bac8bd', font=font12, background="#091833" )
         self.Label12.place(relx=0.065, rely=0.64)
         self.Label12 = tk.Label(master=top, text="Drinks :", foreground='#bac8bd', font=font12, background="#091833" )
-        self.Label12.place(relx=0.085, rely=0.71)
+        self.Label12.place(relx=0.085, rely=0.72)
         
         #_________Entry Food_______
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.26)
+        self.entry1.place(relx = 0.18, rely=0.25)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.34)
+        self.entry1.place(relx = 0.18, rely=0.32)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.73)
+        self.entry1.place(relx = 0.18, rely=0.40)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.5)
+        self.entry1.place(relx = 0.18, rely=0.48)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.58)
+        self.entry1.place(relx = 0.18, rely=0.56)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.66)
+        self.entry1.place(relx = 0.18, rely=0.64)
         
         self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
-        self.entry1.place(relx = 0.18, rely=0.26)
+        self.entry1.place(relx = 0.18, rely=0.72)
         
         
-        https://res.cloudinary.com/pundit-zone-limited/raw/upload/v1643688916/CV_Fredrick_Njuguna_c6cjlg.docx
         
-        https://res.cloudinary.com/pundit-zone-limited/raw/upload/v1645101750/CV_Fredrick_Njuguna_beqxi1.docx
+        #_____________Calculater_______
+        self.entry1 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry1.place(relx = 0.705, rely=0.24, height=35, relwidth=0.267)
+        
+        
+        
+        self.Button1 = tk.Button(master=top,text='''7''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.34, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''8''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.34, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''9''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.34, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''/''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.34, height=44, width=37)
+        
+        
+        self.Button1 = tk.Button(master=top,text='''4''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.44, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''5''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.44, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''6''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.44, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''*''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.44, height=44, width=37)
+        
+        
+        self.Button1 = tk.Button(master=top,text='''1''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.54, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''2''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.780, rely=0.54, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''3''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.54, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''-''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.54, height=44, width=37)
+        
+        
+        self.Button1 = tk.Button(master=top,text='''0''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.64, height=44, width=144)
+        
+        self.Button1 = tk.Button(master=top,text='''.''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.856, rely=0.64, height=44, width=67)
+        
+        self.Button1 = tk.Button(master=top,text='''+''', background='#122c63', font=font14,foreground='#ffffff', borderwidth='0')
+        self.Button1.place(relx=0.934, rely=0.64, height=44, width=37)
+        
+        self.Button1 = tk.Button(master=top,text='''=''', background='#f2a343', font=font14,foreground='#000000', borderwidth='0')
+        self.Button1.place(relx=0.705, rely=0.74, height=34, width=273)
         
         
         
 root = tk.Tk()
 my_gui = App1(root)
 root.mainloop()
+
+
+
