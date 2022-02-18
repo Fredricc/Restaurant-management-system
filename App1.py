@@ -127,6 +127,44 @@ class App1:
         self.Button1.place(relx=0.705, rely=0.74, height=34, width=273)
         
         
+        #________Cost__________
+        
+        self.Label12 = tk.Label(master=top, text="Cost :", foreground='#e16740', font=font12, background="#091833" )
+        self.Label12.place(relx=0.40, rely=0.32)
+        
+        self.Label12 = tk.Label(master=top, text="Service Charge :", foreground='#bac8bd', font=font12, background="#091833" )
+        self.Label12.place(relx=0.35, rely=0.4)
+        self.Label12 = tk.Label(master=top, text="Tax :", foreground='#bac8bd', font=font12, background="#091833" )
+        self.Label12.place(relx=0.40, rely=0.48)
+        self.Label12 = tk.Label(master=top, text="Subtotal :", foreground='#bac8bd', font=font12, background="#091833" )
+        self.Label12.place(relx=0.38, rely=0.56)
+        self.Label12 = tk.Label(master=top, text="Total :", foreground='#bac8bd', font=font12, background="#091833" )
+        self.Label12.place(relx=0.40, rely=0.64)
+        
+        
+        #_______Entry cost______
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry13.place(relx = 0.467, rely=0.33)
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry13.place(relx = 0.516, rely=0.41, relwidth=0.111)
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry13.place(relx = 0.467, rely=0.49)
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry13.place(relx = 0.479, rely=0.57, relwidth=0.146)
+        self.entry13 = tk.Entry(master=top, background="#d9d9d9", foreground="#c60000", font=font13)
+        self.entry13.place(relx = 0.466, rely=0.65)
+        
+        
+        #__________Control Button_____
+        self.Button2 =tk.Button(master=top, text='PRICE', background='#e16740', font= font16 )
+        self.Button2.place(relx=0.039, rely=0.86, height=34, width=107)
+        self.Button2 =tk.Button(master=top, text='TOTAL', background='#e16740', font= font16 )
+        self.Button2.place(relx=0.156, rely=0.86, height=34, width=107)
+        self.Button2 =tk.Button(master=top, text='RESET', background='#e16740', font= font16 )
+        self.Button2.place(relx=0.272, rely=0.86, height=34, width=107)
+        self.Button2 =tk.Button(master=top, text='EXIT', background='#e16740', font= font16 )
+        self.Button2.place(relx=0.389, rely=0.86, height=34, width=107)
+        
         
 root = tk.Tk()
 my_gui = App1(root)
